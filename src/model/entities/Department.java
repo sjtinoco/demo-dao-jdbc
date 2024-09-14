@@ -8,8 +8,8 @@ public class Department implements Serializable {
 	//salvá-la como arquivo ou para trafegar em rede
 	private static final long serialVersionUID = 1L;
 	
-	Integer id;
-	String name;
+	private Integer id;
+	private String name;
 	
 	public Department() {
 		
